@@ -1,0 +1,53 @@
+.container{
+    /* padding: 5px */
+}
+
+mat-toolbar{
+    position: fixed;
+    top: 29px;
+    z-index: 9;
+}
+
+.mat-toolbar-icons{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    animation-direction: alternate;
+    background-color: red;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+}
+
+.icon-container{
+    margin-left: 85%;
+}
+
+.icon{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.container-informacoes{
+    background-color: white;
+}
+
+.informacoes{
+    margin-inline-start: 30%;
+    color: #000;
+    font-size: 20px;
+    /* font-weight: 10000; */
+    /* opacity: 1.5; */
+    /* transition: opacity ease-out 0.2s; */
+    cursor:pointer;
+}
+
+.informacoes * {
+    margin: 5%;
+}
+
+.slides{
+    /* padding: 5%; */
+}
+
+.slides img{
+    width: 100%;
+}
